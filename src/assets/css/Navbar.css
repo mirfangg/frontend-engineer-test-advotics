@@ -1,0 +1,68 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+  height: 64px;
+  font-family: "Open Sans";
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+.navbar img {
+  cursor: pointer;
+}
+
+.navbar__logo span {
+  font-size: 11px;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: baseline;
+}
+
+.navbar__logo .main__logo {
+  width: 129px;
+  height: 32px;
+  padding-right: 10px;
+}
+
+.navbar__logo .second__logo {
+  width: 72px;
+  height: 18px;
+  margin: 0 0 -5px 5px;
+}
+
+.navbar__account {
+  display: flex;
+  align-items: center;
+}
+
+.profile__pict {
+  width: 32px;
+  height: 32px;
+  padding: 0 25px;
+}
+
+.logout__sign {
+  width: 15px;
+  height: 15px;
+}
+
+.user__info {
+  display: flex;
+  flex-direction: column;
+  color: #727272;
+}
+
+.user__info span:nth-child(1) {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.user__info span:nth-child(2) {
+  font-size: 10px;
+  font-weight: 300;
+}

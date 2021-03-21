@@ -1,0 +1,277 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidenav {
+  width: 72px;
+  height: inherit;
+  position: sticky;
+  z-index: 1;
+  overflow-x: hidden;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.5px solid #d2d2d2;
+}
+
+.sidenav__menu {
+  margin: 17px 22px;
+  cursor: pointer;
+}
+
+.sidenav__menu .bar {
+  width: 25px;
+  height: 3px;
+  background: #c5c5c5 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: 6px 0;
+}
+
+.bar:nth-child(3) {
+  width: 15px;
+}
+
+.sidenav__dashboard {
+  display: grid;
+  place-items: center;
+  width: 72px;
+  height: 48px;
+  cursor: pointer;
+  background: #d2d2d2 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.sidenav__dasboard__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  width: 24px;
+  height: 21px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.sidenav__dasboard__icon img {
+  width: 17px;
+  height: 17px;
+}
+
+.sidenav__main {
+  width: 90%;
+  margin: 25px;
+}
+
+.sidenav__main__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.sidenav__main__header span {
+  font-size: 38px;
+  font-weight: 600;
+  color: #707070c4;
+}
+
+.period {
+  display: flex;
+  align-items: center;
+  width: auto;
+  padding: 15px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 3px #00000029;
+  border-radius: 2px;
+}
+
+.period span {
+  color: #8b8b8b;
+  font-size: 16px;
+  font-weight: unset;
+  font-family: "Open Sans";
+  cursor: pointer;
+}
+
+#descTitle {
+  padding-left: 15px;
+  padding-right: 25px;
+}
+
+#reportRange {
+  padding-right: 15px;
+}
+
+.market__insights {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  color: #ffffff;
+  background: #37b04c 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.market__insights .title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+.market__insights .help {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.help a {
+  color: #ffffff;
+  margin: 0 10px 0 5px;
+}
+
+.sales__turnover {
+  width: 276px;
+  padding: 15px;
+  margin: 20px 10px 20px 0;
+  cursor: pointer;
+  border: 0.5px solid #d2d2d2;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.sales__turnover__top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+
+.sales__turnover__top span {
+  font-weight: 500;
+  color: #c5c5c5;
+}
+
+.sales__turnover__top img {
+  width: 10px;
+  cursor: pointer;
+}
+
+.sales__turnover__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sales__turnover__bottom img {
+  width: 48px;
+  height: 42px;
+  margin-right: 20px;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing img {
+  width: 10px;
+  height: 15px;
+  margin-right: 0;
+}
+
+.pricing span:nth-child(1) {
+  font-weight: bold;
+  font-size: 26px;
+  padding-bottom: 5px;
+}
+
+.pricing span:nth-child(2) {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+#percent {
+  font-weight: bold;
+  color: #ff4142;
+  margin: 0 5px;
+}
+
+#description {
+  color: #c5c5c5;
+  font-weight: 500;
+}
+
+#filterPeriod {
+  margin-left: 140px;
+  padding: 8px;
+  border-radius: 2px;
+  border: 1px solid #d7dae2;
+  box-shadow: 0px 2px 3px #0000000d;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+#filterPeriod option {
+  color: #4d4f5c;
+}
+
+.average__purchase__value {
+  width: 100%;
+  height: 424px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 6px #0000000a;
+  border: 0.5px solid #cdcdcd;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.average__purchase__value__wrapper {
+  padding: 15px;
+}
+
+.average__purchase__value__wrapper span {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.average__purchase__value__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.average__purchase__value__header img {
+  width: 10px;
+  cursor: pointer;
+}
+
+.container {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: 2fr 1fr 1fr;
+  padding-bottom: 65px;
+}
+
+.daterangepicker .ranges li.active {
+  background-color: #37af4b !important;
+  font-weight: bold;
+}
+
+.daterangepicker td.active,
+.daterangepicker td.active:hover {
+  background-color: #37af4b !important;
+  font-weight: bold;
+}
+
+.daterangepicker .drp-buttons .btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 4px;
+  background-color: #37af4b;
+}
+.daterangepicker td.end-date,
+.daterangepicker td.start-date {
+  border-radius: 15px !important;
+}
