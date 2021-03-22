@@ -18,7 +18,7 @@ function SidenavMain() {
   let percentage = "13.8%";
 
   $(function () {
-    var start = moment().subtract(1, 'days');
+    var start = moment().subtract(6, 'days');
     var end = moment();
 
     function cb(start, end) {
